@@ -1,0 +1,61 @@
+<!--
+    Initially i wanted to create a Dice game based on our python Assignment from semester 1 but i couldn't
+    so i decided so to do Rock papper scissor but i couldn't ever perfectly do this in remaning time
+    scoreboard is messed up-- i couldn't fix it even after trying for 3 days
+    
+    Created on Nov 17 2020
+    @Author Ansari Mohammed Faisal - #000812671
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RPC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <script src = "js/Game.js">  </script>
+</head>
+
+<body>
+    <section>
+        
+        <div class="main">
+            <form id="mform">
+            <h4>Name: <input type="text" id="name" required placeholder="Enter your Name!" /></h4>
+            <h4>Age: <input type="number" id="age" min="1" required placeholder="Enter Your age" /></h4>
+            <h4>Color of Your choice: <input type="color" id="color" /></h4>
+
+            <input type="submit" >
+            </form>
+        </div> 
+        <div>
+            <label for="rock" id="rocklabel"></label>
+           <img id= "rock"> </img>
+           <label for="paper" id="paperlabel"></label>
+           <img id= "paper"> </img>
+           <label for="scissors" id="scissorslabel"></label>
+           <img id= "scissors"> </img>
+        </div>
+        <div id = "resultboard">
+        <label id="result"></label>
+        </div>
+        <div id="scoreboard">
+            <div id="playerscore">
+                <h1 id="player">Player </h1>
+                <p id="pscore"></p>
+            </div>
+            <div ><h1 id="title">*Rock -- Paper -- Scissors*</h1></div>
+            <div id="compscore">
+                <h1>Computer</h1>
+                <p id="cscore"></p>
+            </div>
+            </div>
+
+    </section>
+    <div class="reset"><button id="resetbutton">Reset</button>
+    <button id="playagain">Play Again</button></div> 
+
+    <h5>&copy; Ansari Mohammed Faisal - #000812671</h5>
+</body>
+
+</html>
